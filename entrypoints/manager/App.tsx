@@ -149,7 +149,10 @@ function App() {
     <div className="manager">
       <header className="manager-header">
         <div className="manager-header-top">
-          <h1>Tab Manager</h1>
+          <div className="manager-header-logo">
+            <img src="icon/32.png" alt="Logo" width={32} height={32} />
+            <h1>Zen Tabz</h1>
+          </div>
           <div className="manager-header-actions">
             <button className="btn btn-primary" onClick={handleSaveCurrent}>
               Save Current Window

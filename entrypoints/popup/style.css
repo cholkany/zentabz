@@ -46,6 +46,12 @@ body {
   color: var(--primary);
 }
 
+.popup-header-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .popup-actions {
   padding: 12px 16px;
   display: flex;
